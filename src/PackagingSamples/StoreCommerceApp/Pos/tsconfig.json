@@ -1,0 +1,12 @@
+{
+  "extends": "./devDependencies/pos-tsconfig-base.json",
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "knockout": [ "Libraries/knockout" ]
+    },
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": false
+  }
+}
